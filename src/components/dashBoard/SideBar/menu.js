@@ -11,14 +11,14 @@ import {
   LogoImage
 } from "../../../assets/styles/SideBar/index";
 
-import { GridColumnStyled } from '../../../assets/styles/GridSystem/index';
+import { MenuWrap } from '../../../assets/styles/GridSystem/index';
 
 import Logo from '../../../assets/images/logo.png';
 
 const SideBar = () => {
   const toggleMenu = useSelector(state => state.menuStatus.menuStatus);
   return (
-    <GridColumnStyled sideBar={true} desktop={toggleMenu ? "240px" : "75px"}>
+    <MenuWrap sideBar={true} desktop={toggleMenu ? "240px" : "75px"}>
       <SideBarNav>
         <SideBarUl>
           
@@ -63,7 +63,7 @@ const SideBar = () => {
 
         </SideBarUl>
       </SideBarNav>
-    </GridColumnStyled>
+    </MenuWrap>
   );
 };
 // const MenuDashBoard = () => {

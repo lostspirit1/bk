@@ -5,8 +5,7 @@ body {
   padding: 0;
 }
 #root,
-.App,
-.ui.grid{
+.App{
   height: 100vh !important;
 
 }

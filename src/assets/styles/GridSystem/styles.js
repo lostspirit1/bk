@@ -5,6 +5,7 @@ export const reset = css`
   margin: 0 !important;
 `;
 export const column = css`
+  height: calc(100vh - 55px) !important;
   padding: 0 !important;
   margin: 0 !important;
   transition: all 0.3s;
@@ -33,4 +34,15 @@ export const gridHeader = css`
 `;
 export const gridContent = css`
   height: calc(100vh - 55px);
+`;
+
+
+export const menuwrap = css`
+width:240px !important;
+height:calc(100% - 55px) !important;
+padding:0 !important;
+margin:0 !important;
+background:transparent;
+position: static !important;
+box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.6);
 `;
