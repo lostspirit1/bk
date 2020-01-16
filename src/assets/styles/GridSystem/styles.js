@@ -28,7 +28,8 @@ export const gridHeader = css`
   height: 55px;
   max-height: 55px;
   padding: 0 !important;
-  background: red;
+  background: #1269DB !important;
+  box-shadow: 0px 0px 5px rgba(18, 23, 39, 0.5);
 `;
 export const gridContent = css`
   height: calc(100vh - 55px);

@@ -21,41 +21,42 @@ export const button = css`
 `;
 
 export const logoHeader = css`
-  background: #fff;
-  line-height: 55px;
-  color: #333;
-  font-size: 17px;
-  font-weight: 500;
-  padding-left: 25px;
-  padding-right: 25px;
+  background: #1572E8 !important;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
-  transition: all .3s;
+  height: 100%;
+  max-width:240px !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: width .300s;
 `;
 
 export const logoName = css`
   display:inline;
   margin:0;
-  visibility: visible;
-  opacity: 1;
-  transition: opacity .3s;
-`;
-export const logoNameClosed = css`
-  display:inline;
-  margin:0;
-  width:0;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .1s, visibility 0s 1s;
-`;
-export const logoImg = css`
-  width:35px;
-  height:25px;
-  verticalAlign:middle;
-  margin-right:8px;
+  font-family: Roboto;
+  color: #363333;
+  letter-spacing: 1px;
 `;
 
+export const logoImg = css`
+  display:block;
+  width:35px;
+  height:25px;
+  vertical-align:middle;
+  margin-right: 20px;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.1s, display 0.1s;
+`;
+export const logoImgClosed = css`
+  display:none;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transition: display 0s 2s ,opacity 0.5s, visibility 0s 1s !important;
+`;
 export const sideBarMinimize = css`
 `;
 export const breakPointHeader = (value) => {

@@ -15,16 +15,16 @@ const DashBoard = () => {
   return (
     <GridStyled>
       <Header />
-      <SideBar />
+      {/* <SideBar />
       <Column desktop={toggleMenu ? 'calc(100% - 240px)':'calc(100% - 75px)'} >
         <GridStyled>
           {/* <Row content={true}
             >
               1
-            </Row> */}
+            </Row> 
         </GridStyled>
-      </Column>
-    </GridStyled>
+      </Column>*/}
+    </GridStyled> 
   );
 };
 

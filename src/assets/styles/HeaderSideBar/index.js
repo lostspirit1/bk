@@ -17,8 +17,9 @@ export const LogoHeader = styled.div`
 
 export const LogoImage = styled.img`
     ${styles.logoImg};
+    ${props => (props.menuisOpen ? "" : styles.logoImgClosed )};
 `;
 
 export const LogoName = styled.h1`
-    ${props => (props.menuisOpen ? styles.logoName : styles.logoNameClosed )};
+    ${styles.logoName};
 `;
