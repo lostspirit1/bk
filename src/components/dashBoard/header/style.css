@@ -1,0 +1,35 @@
+.logoxd{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+    width: 35px;
+    height: 25px;
+    vertical-align: 'middle';
+    margin-right: 8px;
+}
+
+.closed{
+    visibility: hidden;
+    width:0px;
+    opacity: 0;
+    transition: opacity 1s, visibility 0s 1s;
+}
+
+.textx{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.textxd{
+    width:0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 0s 1s;
+}
+
+
+.axx{
+    padding:0;
+    transition: padding 1s;
+}
